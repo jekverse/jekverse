@@ -13,26 +13,25 @@
   <a href="https://www.patreon.com/nezukobot"><img width="32px" alt="Patreon" title="Patreon" src="https://i.imgur.com/0uVwkoZ.png"/></a>
 </p>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .interactive-box {
-            width: 100px;
-            height: 100px;
-            background-color: #4CAF50;
-            transition: all 0.3s ease-in-out;
-            cursor: pointer;
-        }
-        
-        .interactive-box:hover {
-            transform: scale(1.5);
-        }
-    </style>
-</head>
-<body>
-    <div class="interactive-box"></div>
-</body>
-</html>
+# Project Title
+
+## Interactive Box Example
+
+Below is an example of an interactive box that grows when hovered over.
+
+```html
+<style>
+    .interactive-box {
+        width: 100px;
+        height: 100px;
+        background-color: #4CAF50;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .interactive-box:hover {
+        transform: scale(1.5);
+    }
+</style>
+
+<div class="interactive-box"></div>
